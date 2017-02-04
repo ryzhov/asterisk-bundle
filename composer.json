@@ -1,0 +1,26 @@
+{
+    "name": "ryzhov/asterisk-bundle",
+    "type": "symfony-bundle",
+    "description": "AsteriskBundle for symfony framework",
+    "keywords": ["SIP", "VOIP", "AMI", "Asterisk", "telephony", "client", "event"],
+    "homepage": "https://github.com/ryzhov/asterisk-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr N. Ryzhov",
+            "email": "a.n.ryzhov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ryzhov/pami": "~2.0-dev"
+    },
+    "autoload": {
+        "psr-4": { "Ryzhov\\Bundle\\AsteriskBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
