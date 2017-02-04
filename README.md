@@ -92,8 +92,10 @@ namespace AppBundle\Service;
 use PAMI\Listener\IEventListener;
 use PAMI\Message\Event\EventMessage;
 
-class ExampleHandler implements IEventListener
+class EventHandler implements IEventListener
 {
+    . . .
+
     public function handle(EventMessage $event)
     {
         $this->logger->debug(sprintf('class: "%s" handle', get_class($event)));
