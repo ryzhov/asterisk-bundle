@@ -73,7 +73,8 @@ parameters:
         - "PAMI\\Message\\Event\\DeviceStateChangeEvent"
         - "PAMI\\Message\\Event\\PeerStatusEvent"
 
-service.event_handler:
+services:
+    service.event_handler:
         class: AppBundle\Service\EventHandler
         calls:
             - [setLogger, ["@logger"]]
