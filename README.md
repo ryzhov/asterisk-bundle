@@ -104,3 +104,5 @@ class EventHandler implements IEventListener
 }
 
 ```
+
+This is example of code [https://github.com/ryzhov/example-asterisk-ami](ryzhov/example-asterisk-ami) here
