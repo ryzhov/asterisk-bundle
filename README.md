@@ -106,3 +106,16 @@ class EventHandler implements IEventListener
 ```
 
 This is example of code  [ryzhov/example-asterisk-ami](https://github.com/ryzhov/example-asterisk-ami)
+
+```bash
+$ composer create-project ryzhov/example-asterisk-ami
+-- configure ami socket parameters here --
+asterisk_host (localhost): 127.0.0.1
+asterisk_ami_port (5038): 
+asterisk_ami_username (ami):
+asterisk_ami_secret (pass4ami):
+--
+
+$ cd example-asterisk-ami
+$ php bin/console event-handler
+```
